@@ -1,0 +1,18 @@
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 20px;
+    padding: 50px;
+  }
+.card{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 20rem;
+  height: 500px;
+  padding: 20px;
+}
+.card img{
+  border-radius: 30%;
+  padding: 20px;
+  height: 250px;
+}
+  
